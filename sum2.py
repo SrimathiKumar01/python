@@ -1,4 +1,4 @@
-a=[]
-a.append(29)
-a.append(54)
-print(a)
+for i in range(1,6):
+    print("*",end=" ")
+    for j in range(1-i):
+      print()
