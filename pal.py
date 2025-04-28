@@ -1,8 +1,6 @@
-def is_palindrome(s):
-    return s == s[::-1]
-
-word = input("Enter a word: ")
-if is_palindrome(word):
-    print(f"'{word}' is a palindrome")
+n="Srimathi"
+print(n[::-1])
+if(n==n[::-1]):           
+ print("Palindrome")
 else:
-    print(f"'{word}' is not a palindrome")
+ print("Not a palindrome")   
